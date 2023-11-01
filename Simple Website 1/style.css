@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-color: whitesmoke;
+}
+/* header start */
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 87px;
+    height: 35px;
+    top: 86px;
+    left: 86px;
+    color: #3751FE;
+}
+
+.menu ul li a{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: gray;
+    text-decoration: none;
+
+}
+
+.menu ul {
+    display: flex;  
+    justify-content: space-around;
+    list-style: none;
+ 
+}
+.menu ul li {
+    /* display: flex; */
+   padding-left: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+/* main page */
+h1{
+    width: 560px;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-weight: 700;
+    color: #3751FE;
+    margin-top: 150px;
+    margin-right: 1200px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-bottom: 35px;
+}
+
+.input-one{
+    width: 538px;
+    height: 64px;
+    top: -14px;
+    left: 392px;
+    margin-left: 160px;
+}
+
+img{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 960px;
+}
+
+
+
+.label-one{
+    padding-top: 10px;
+    padding-left: 178px;
+    position: absolute;
+    color: gray;
+    font-size: 16px;
+}
+
+.input-two{
+    width: 538px;
+    height: 64px;
+    top: -14px;
+    left: 392px;
+    margin-left: 160px;
+    margin-top: 3px;
+}
+
+.label-two{
+    padding-top: 10px;
+    padding-left: 178px;
+    position: absolute;
+    color: gray;
+    font-size: 16px;
+}
+
+.checkbox{
+    color: gray;
+    margin-left: 170px;
+    margin-top: 15px;
+}
+
+.forgot{
+    margin-top: -20px;
+    margin-left: 550px;
+    color: gray;
+    font-size: 16px;
+}
+
+/* buttons */
+
+.login{
+    display: flex;
+    width: 200px;
+    padding-right: 20px;
+    margin-left: 160px ;
+}
+
+.login button {
+    border-color: #3751FE;
+    width: 129px;
+    height: 54px;
+    top: 714px;
+    left: 85px;
+    }
+
+/* .bottom{
+    display: flex;
+} */
